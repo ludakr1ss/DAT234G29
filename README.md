@@ -15,7 +15,7 @@ CaesarCipher 'your text here' key(1-26)
 
 If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode
 
-![Picture](E:\Skole\IT\DAT234\CSmdecode.png)
+![alt text](E:\Skole\IT\DAT234\CSmdecode.png)
 
 Alternative file: CeaserCipherAlternate.ps1
 
