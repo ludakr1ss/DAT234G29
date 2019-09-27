@@ -11,9 +11,9 @@ File: NyCaesar.ps1
 
 How to use Caesar Cipher: 
 
-CaesarCipher 'your text here' key(1-26)
+CaesarCipher 'your text here' (key 1-26). Ex: "CaesarCipher 'PowershellIsAwesome' 13"
 
-If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode
+If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode. Ex: "CaesarCipher 'CbjrefuryyVfNjrfbzr' 13 -Decode"
 
 ![alt text](https://github.com/ludakr1ss/DAT234G29/blob/master/CSmdecode.png)
 
