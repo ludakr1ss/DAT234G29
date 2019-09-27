@@ -28,3 +28,13 @@ Step 2. Enter key
 Step 3. Enter phrase to be decrypted
 
 The "PSOHWEELRL" phrase from the assignment is decrypted into "POWERSHELL".
+
+#### 3)
+File: PingSweep.ps1
+
+This scripts pings a subnet.
+
++How to use the PingSweep
+Step 1. Open script in PowerShell
+Step 2. Enter ip-address and mask in a *.*.*.*/* format
+Step 3. Ping things.
