@@ -36,5 +36,5 @@ This scripts pings a subnet.
 
 +How to use the PingSweep
 Step 1. Open script in PowerShell
-Step 2. Enter ip-address and mask in a *.*.*.*/* format
+Step 2. Enter ip-address and mask in a *.*.*.*/24 format
 Step 3. Ping things.
