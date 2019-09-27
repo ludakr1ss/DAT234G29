@@ -2,12 +2,12 @@
 
 ### Mandatory assignment 1
 
-The file pingiprange.sh is the script for mandatory assignment 1!
+The file ipv4.sh is the script for mandatory assignment 1!
 
 
 ### Mandatory assignment 2
 #### 1)
-File: CaesarCipher.ps1
+File: NyCaesar.ps1
 
 How to use Caesar Cipher: 
 
@@ -15,7 +15,7 @@ CaesarCipher 'your text here' key(1-26)
 
 If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode
 
-![alt text](E:\Skole\IT\DAT234\CSmdecode.png)
+![alt text](https://github.com/ludakr1ss/DAT234G29/blob/master/CSmdecode.png)
 
 Alternative file: CeaserCipherAlternate.ps1
 
