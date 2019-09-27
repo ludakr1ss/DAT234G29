@@ -12,7 +12,7 @@ exit
 
 foreach ($ip in $iprange) 
 {
-Test-Connection -ipaddres $ip -Count 2 -ErrorAction SilentlyContinue -ErrorVariable ProcessError;
+Test-Connection -ipaddres $ip -Count 1 -ErrorAction SilentlyContinue -ErrorVariable ProcessError;
 If ($ProcessError) { Write-Host "No connection at" $ip}
 }
 
