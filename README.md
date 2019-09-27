@@ -18,7 +18,7 @@ If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode. Ex: 
 ![alt text](https://github.com/ludakr1ss/DAT234G29/blob/master/CSmdecode.png)
 
 
-#### 2)
+#### 2) (Incomplete)
 File: ScytaleCipher.ps1
 
 This script only allows you to decrypt a message, encryption not implemented.
