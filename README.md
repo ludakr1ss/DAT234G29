@@ -17,18 +17,6 @@ If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode. Ex: 
 
 ![alt text](https://github.com/ludakr1ss/DAT234G29/blob/master/CSmdecode.png)
 
-#### 2)
-File: ScytaleCipher.ps1
-
-This script only allows you to decrypt a message, encryption not implemented.
-
-+How to use Scytale Cipher:
-Step 1. Open script in PowerShell
-Step 2. Enter key
-Step 3. Enter phrase to be decrypted
-
-The "PSOHWEELRL" phrase from the assignment is decrypted into "POWERSHELL".
-
 #### 3)
 File: PingSweep.ps1
 
