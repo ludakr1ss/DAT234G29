@@ -17,15 +17,6 @@ If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode
 
 ![alt text](https://github.com/ludakr1ss/DAT234G29/blob/master/CSmdecode.png)
 
-Alternative file: CeaserCipherAlternate.ps1
-
-How to use:
-Open script, choose to encrypt or decrypt by typing e/d
-
-Choose to encrypt/decrypt using specific key by typing y/n (Typing n will result in the script encrypting or decrypting in all keys ranging from 1-25.)
-
-Enter phrase to be decrypted/encrypted.
-
 #### 2)
 File: ScytaleCipher.ps1
 
@@ -37,8 +28,3 @@ Step 2. Enter key
 Step 3. Enter phrase to be decrypted
 
 The "PSOHWEELRL" phrase from the assignment is decrypted into "POWERSHELL".
-
-#### 3) 
-File: ipsubnet.ps1
-
-Ipsubnet.ps1 pings all IP's within the specific subnet, and prints out the IP's which are in use in the terminal. Default in this script it pings CIDR 192.168.0.15/24. A visual progress bar is also added to see the progress made with pinging the subnet.
