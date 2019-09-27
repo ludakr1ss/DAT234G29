@@ -1,4 +1,4 @@
-## DAT234G29(temp name)
+## DAT234G29
 
 ### Mandatory assignment 1
 
