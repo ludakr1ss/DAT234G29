@@ -23,22 +23,10 @@ File: ScytaleCipher.ps1
 
 This script only allows you to decrypt a message, encryption not implemented.
 
-+How to use Scytale Cipher:
+How to use Scytale Cipher:
 Step 1. Open script in PowerShell
 Step 2. Enter key
-Step 3. Enter phrase to be decrypted
+Step 3. Enter phrase
+Step 4. Choose to encrypt or decrypt e/d
 
 The "PSOHWEELRL" phrase from the assignment is decrypted into "POWERSHELL".
-
-
-#### 3)
-File: PingSweep.ps1
-
-This scripts pings a subnet.
-
-+How to use the PingSweep
-Step 1. Open script in PowerShell
-
-Step 2. Enter IP-address and mask in a \_.\_.\_.\_/24 format
-
-Step 3. Ping things.
