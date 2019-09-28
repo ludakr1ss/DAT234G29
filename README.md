@@ -21,8 +21,6 @@ If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode. Ex: 
 #### 2)
 File: ScytaleCipher.ps1
 
-This script only allows you to decrypt a message, encryption not implemented.
-
 How to use Scytale Cipher:
 Step 1. Open script in PowerShell
 Step 2. Enter key
