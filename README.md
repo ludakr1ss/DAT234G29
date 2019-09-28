@@ -11,7 +11,7 @@ File: NyCaesar.ps1
 
 How to use Caesar Cipher: 
 
-Download script to your PC -> open up in Powershell ISE -> Run script -> Write in Powershell ISE terminal: CaesarCipher 'your text here' (key 1-26). Ex: "CaesarCipher 'PowershellIsAwesome' 13"
+Download script to your PC -> open up in Powershell ISE -> File - Run script -> Write in Powershell ISE terminal: CaesarCipher 'your text here' (key 1-26). Ex: "CaesarCipher 'PowershellIsAwesome' 13"
 
 If you want to decode write: CaesarCipher 'Text to decode' key(13) -Decode. Ex: "CaesarCipher 'CbjrefuryyVfNjrfbzr' 13 -Decode"
 
