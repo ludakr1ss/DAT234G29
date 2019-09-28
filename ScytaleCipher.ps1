@@ -42,6 +42,7 @@ elseif ($input -eq "d") {
         }
         $incremental2 ++
     }
+    $newText = ""
     for ($index=0;$index -lt $textlength; $index ++) {
         $index2 = $index
         while ($index2 -lt $textarray2.Length) {
