@@ -1,12 +1,17 @@
-#!/usr/bin/env
+import urllib3
+import json
 
-import urllib.request
 
 def task_1():
-
-r = request.get("https://links.datapor.no")
-
-print(r.text)
+    http = urllib3.PoolManager()
+    r = http.request(
+        'GET',
+        'https://links.datapor.no',
+        headers={
+            'X-Something': 'value'
+        })
+    json.loads(r.data.decode('utf-8'))['headers']
+    {'X-Something': 'value'}
 
 
 if __name__ == "__main__":
