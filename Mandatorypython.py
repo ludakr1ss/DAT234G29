@@ -1,18 +1,17 @@
-import urllib3
-import json
+from urllib.request import urlopen
+import re
 
 
 def task_1():
-    http = urllib3.PoolManager()
-    r = http.request(
-        'GET',
-        'https://links.datapor.no',
-        headers={
-            'X-Something': 'value'
-        })
-    json.loads(r.data.decode('utf-8'))['headers']
-    {'X-Something': 'value'}
+
+    html = urlopen("https://links.datapor.no/")
+    content = html.read()
+    print(content)
+
+def task_2():
+    
 
 
 if __name__ == "__main__":
     task_1()
+    task_2()
