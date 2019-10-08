@@ -33,3 +33,17 @@ Step 3. Enter phrase
 Step 4. Choose to encrypt or decrypt e/d
 
 The "PSOHWEELRL" phrase from the assignment is decrypted into "POWERSHELL".
+
+## Mandatory Python
+
+1. Visit the site https://links.datapor.no (Lenker til en ekstern side.) with the use of requests and print out the source code.
+
+2. How many links are using http vs https , with the use of regex.
+
+3. Print out all the unique TLD.
+
+4. print out all the unique hostname for each url.
+
+5. Find all the unique html tags, with the use of regex
+
+6. Visit each of the links found on https://links.datapor.no (Lenker til en ekstern side.), and visit each of the links and print out the title of the site *hint: look for <title> or <meta> tags*
