@@ -51,8 +51,18 @@ def task_4():
             print(link2)
 
 
+def task_5():
+    r = requests.get("https://links.datapor.no/")
+    tags = re.findall(r'<[^>][a-z.A-Z.0-9]*>', r.text)
+    tagsList = []
+    for tag in tags:
+        if not tag in tagsList:
+            tagsList.append(tag)
+            print(tag)
+
 if __name__ == "__main__":
     task_1()
     task_2()
     task_3()
     task_4()
+    task_5()
