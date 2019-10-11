@@ -24,11 +24,15 @@ def task_2():
 
 def task_3():
     r = requests.get("https://links.datapor.no/")
-    result = re.findall(r"\w+://\w+\.\w+\.\w+/?[\w\.\?=#]*", r.text)
-    urls = result
-    for url in urls:
-        info = get_tld(url, as_object=True)
-        print("Suffix: ", info.suffix)
+    pattern = '/(?:[a-zA-Z]*\.)+([a-zA-Z]+)(?:\/.*)?'
+    tlds = re.findall(pattern, r.text)
+    myList = tlds
+    auxiliaryList = []
+    for word in myList:
+       if word not in auxiliaryList:
+           auxiliaryList.append(word)
+           auxiliaryList = list(set(myList))
+           print(list(set(myList)))
 
 def task_4():
     r = requests.get("https://links.datapor.no/")
