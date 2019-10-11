@@ -73,6 +73,9 @@ def task_6():
             linkList.append(link)
     for link in linkList:
         print(link) #bare for å vise alle linkene i linklist
+        l = requests.get(link)
+        linkTittel = re.findall('<title.*?>(.+?)</title>', l.text)
+        print(linkTittel)
 
 
 if __name__ == "__main__":
