@@ -60,9 +60,25 @@ def task_5():
             tagsList.append(tag)
             print(tag)
 
+def task_6():
+    r = requests.get("https://links.datapor.no/")
+    linksHttp = re.findall('http://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', r.text)
+    linksHttps = re.findall('https://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', r.text)
+    linkList = []
+    for link in linksHttp:
+        if not link in linkList:
+            linkList.append(link)
+    for link in linksHttps:
+        if not link in linkList:
+            linkList.append(link)
+    for link in linkList:
+        print(link) #bare for å vise alle linkene i linklist
+
+
 if __name__ == "__main__":
-    task_1()
-    task_2()
-    task_3()
-    task_4()
-    task_5()
+    #task_1()
+    #task_2()
+    #task_3()
+    #task_4()
+    #task_5()
+    task_6()
