@@ -36,11 +36,19 @@ def task_3():
 
 def task_4():
     r = requests.get("https://links.datapor.no/")
-    result = re.findall(r"\w+://\w+\.\w+\.\w+/?[\w\.\?=#]*", r.text)
-    urls = result
-    for url in urls:
-        info = get_tld(url, as_object=True)
-        print("Suffix: ", info.domain)
+    linksHttp = re.findall('http://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', r.text)
+    linksHttps = re.findall('https://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', r.text)
+    linkList = []
+    for link in linksHttp:
+        if not link in linkList:
+            linkList.append(link)
+            trash, link2 = link.split("//")
+            print(link2)
+    for link in linksHttps:
+        if not link in linkList:
+            linkList.append(link)
+            trash, link2 = link.split("//")
+            print(link2)
 
 
 if __name__ == "__main__":
