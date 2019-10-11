@@ -23,9 +23,9 @@ def task_2():
 
 
 def task_3():
-    r = requests.get("https://links.datapor.no/")
+    tldr = requests.get("https://links.datapor.no/")
     pattern = '/(?:[a-zA-Z]*\.)+([a-zA-Z]+)(?:\/.*)?'
-    tlds = re.findall(pattern, r.text)
+    tlds = re.findall(pattern, tldr.text)
     myList = tlds
     auxiliaryList = []
     for word in myList:
