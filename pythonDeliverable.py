@@ -34,6 +34,7 @@ def task_3():
             auxiliaryList = list(set(myList))
             print(list(set(myList)))
 
+
 def task_4():
     r = requests.get("https://links.datapor.no/")
     linksHttp = re.findall('http://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', r.text)
@@ -50,6 +51,7 @@ def task_4():
             trash, link2 = link.split("//")
             print(link2)
 
+
 def task_5():
     r = requests.get("https://links.datapor.no/")
     tags = re.findall(r'<[^>][a-z.A-Z.0-9]*>', r.text)
@@ -58,6 +60,7 @@ def task_5():
         if not tag in tagsList:
             tagsList.append(tag)
             print(tag)
+
 
 def task_6():
     r = requests.get("https://links.datapor.no/")
